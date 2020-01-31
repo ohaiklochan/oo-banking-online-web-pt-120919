@@ -21,7 +21,7 @@ class BankAccount
     if @balance > 0 
       return true
     else
-      return "closed"
+      return false
     end
   end
 
