@@ -18,7 +18,11 @@ class BankAccount
   end
 
   def status_of_account(status)
-    @status
+    if @balance > 0
+      return @status
+    else
+      return "closed"
+    end
   end
 
 end
