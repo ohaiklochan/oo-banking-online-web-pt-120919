@@ -17,7 +17,7 @@ class BankAccount
     return "Your balance is $#{self.balance}."
   end
 
-  def status_of_account(status)
+  def valid?
     if @balance > 0
       return @status
     else
