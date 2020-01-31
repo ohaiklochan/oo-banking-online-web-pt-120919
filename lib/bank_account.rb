@@ -17,5 +17,7 @@ class BankAccount
     return "Your balance is $#{self.balance}."
   end
 
+  def status_of_account(status)
+    
 
 end
