@@ -1,3 +1,10 @@
 class Transfer
-  # your code here
+  
+  attr_accessible :Transfer
+  
+  def initialize(transfer)
+    @transfer = transfer
+  end
+  
+  
 end
