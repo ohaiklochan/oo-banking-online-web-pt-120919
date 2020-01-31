@@ -18,6 +18,7 @@ class BankAccount
   end
 
   def status_of_account(status)
-    
+    @status
+  end
 
 end
